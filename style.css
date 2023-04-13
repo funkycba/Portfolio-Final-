@@ -2,9 +2,15 @@ h1 {
     color: purple;
     background: blanchedalmond;
     border: dotted;
+    flex: 40px;
+    align-items: center;
+    justify-content: space-around;
 }
 h2 {
-    color: red;
+    color: orangered;
+    background-color: seagreen;
+    border-style: groove;
+    border: double;
 
 
 }
@@ -12,19 +18,43 @@ h2 {
 color:blue;
 }
 .Games {
-    width:900px;
-    height:900px;
-    margin: 20px;
+    width:200px;
+    height:200px;
+    margin-bottom: 40px;
+
 }
-section {
-    display:flex;
-    column-count: 5;
+img {
+    height: 200px;
+    width: 200px;
+
 }
 .title {
-    position: fixed;
+    position: static;
     margin:30px;
     padding-left: 20px;
     top: 10;
     background: Red;
+
     
+}
+.body {
+    display: flex;
+    column-count: 5;
+    column-gap: 20px;
+    break-inside: avoid;
+}
+section {
+    flex-direction:column;
+    margin: 90px;
+    flex-grow: 1;
+    flex-shrink: 3;
+    flex-wrap: wrap;
+    background-image: "https://lh3.googleusercontent.com/Eq1wftelL6b8Xm5RWZVprhoj8rT4k-NrTsb5f31CwvilbUTEn9a75No-3vhUIbgDtQFmVaNxLLCPcEI44XESYKH36KDlnv1PN6DoQzt7vCki3sDbfihpoOmkrc6c6_FMUfMOzxqovZ83_e0Z-1WI4IYbUPX0-Zgf1R_-keeolRCXpTKGGFcrv0YjM237EajCuhJwaaO7Jnu2GNmmddkKx4pNywsL9l7DoL5Qef4g4t0-sAQ-MBIxRWQsFCsCBe6ZLGMifK1e0SZACjC7HTqM7xzFweehIZmTDynTkdwI1ADu7J_FyuPnsaTCkDu1OrpLeZn3BgtbL9KMVyEqkJddHljasRm09FipOZMsnqZ4gH7Nr6CEW5PQvR9vAVVq4O8sS6IApIY5aEaaCoD1JpUui_rz2paN5azD7nHc0sgEJrl3DoSLgKUgUlWkiKY0vaIpZifL909btrp6ywsT7Xh7aLOXjYIM9xUnpsRkWzlMHf7AE41dD4saJFOPni-Hv0hCd9lTOwkpnC5Ib5rvrYzsMByLi_Y_QbJqmo3Rk28WG28p9KmNLsya9ehGHX_F1topspwUHQHHzVsfxIUb2O_dWqkDDhYn1TwiplP-IkYQADV3c3PDocjA6tQIB-tR6qut_9hO90ZQHVDIBErjPuHQHen9062a6G79CQZj97pYxBQ12P1p_WuVyPvBFLpYG0fnejaSr8V6gDqpKlDw7QjM0Ov-PVFh0c0UvaJi0BCCdsduy1IyXyKc4fg2xslB2wr5MbmEi9VSUaI4AhQR50YXLC4DF31IXGi0qbV3hiovG7NOcaRq-D_FHC5EtPoyWQLNtHyybeJBana4rblVVC8AcvAJrptaztaARCilvoEIReG4tpqLg5LIqll2N6HWNPIBqxuoH1VoFtbJRJErPToefhEIBMyxsOSF7j5RRV32nYg8oll6=w1203-h799-s-no?authuser=0";
+
+}
+li {
+    font-size: medium;
+    flex: 40px;
+    align-items: center;
+    justify-content: space-around;
 }
