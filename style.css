@@ -1,0 +1,30 @@
+h1 {
+    color: purple;
+    background: blanchedalmond;
+    border: dotted;
+}
+h2 {
+    color: red;
+
+
+}
+.sketches{
+color:blue;
+}
+.Games {
+    width:900px;
+    height:900px;
+    margin: 20px;
+}
+section {
+    display:flex;
+    column-count: 5;
+}
+.title {
+    position: fixed;
+    margin:30px;
+    padding-left: 20px;
+    top: 10;
+    background: Red;
+    
+}
