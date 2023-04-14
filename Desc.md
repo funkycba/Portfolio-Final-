@@ -1,0 +1,1 @@
+This is my own personal portfolio containing hobbies that help difine me as well as some of my talent in art. The art I create comes in diferent forms as well as my taste in games and movies which also serv as inspirations for some of my work sometimes.
